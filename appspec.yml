@@ -1,0 +1,9 @@
+version: 0.0
+os: windows
+files:
+  - source: \birds.txt
+    destination: C:\toes\
+hooks:
+  BeforeInstall:
+    - location: c:\scripts\before.bat
+      timeout: 900
